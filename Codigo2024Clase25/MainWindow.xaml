@@ -1,0 +1,13 @@
+﻿<Window x:Class="Codigo2024Clase25.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Codigo2024Clase25"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Button Content="Abrir Formulario 1" Command="{Binding AbrirFormulario1Command}" Width="150" Margin="10"/>
+        <Button Content="Abrir Formulario 2" Command="{Binding AbrirFormulario2Command}" Width="150" Margin="10" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
